@@ -1,16 +1,14 @@
-package pl.qsoftware.builders;
+package pl.qsoftware.backend.builders;
 
-import pl.qsoftware.Invoice;
-import pl.qsoftware.enums.PaymentMethod;
-import pl.qsoftware.enums.PaymentTerm;
-import pl.qsoftware.invoicesDetails.Contract;
+import pl.qsoftware.backend.Invoice;
+import pl.qsoftware.backend.enums.PaymentMethod;
+import pl.qsoftware.backend.enums.PaymentTerm;
+import pl.qsoftware.backend.invoicesDetails.Company;
 
 import java.time.LocalDate;
-import java.util.Map;
 
 public class InvoiceBuilder {
-  private Contract contract;
-  private Map<String, Integer> invoiceItems;
+  private Company company;
   private LocalDate dateOfSale;
   private LocalDate invoiceDate;
   private PaymentMethod method;
@@ -22,13 +20,8 @@ public class InvoiceBuilder {
   private String toPayInWords;
   private double itemSummary;
 
-  public InvoiceBuilder setContract(Contract contract) {
-    this.contract = contract;
-    return this;
-  }
-
-  public InvoiceBuilder setInvoiceItems(Map<String, Integer> invoiceItems) {
-    this.invoiceItems = invoiceItems;
+  public InvoiceBuilder setContract(Company company) {
+    this.company = company;
     return this;
   }
 
@@ -83,6 +76,6 @@ public class InvoiceBuilder {
   }
 
   public Invoice build() {
-    return new Invoice(contract, invoiceItems, dateOfSale, invoiceDate, method, paymentTerm, bankAccount, comments, invoiceCity, invoiceNumber, toPayInWords, itemSummary);
+    return new Invoice(company, dateOfSale, invoiceDate, method, paymentTerm, bankAccount, comments, invoiceCity, invoiceNumber, toPayInWords, itemSummary);
   }
 }

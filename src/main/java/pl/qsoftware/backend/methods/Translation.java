@@ -1,4 +1,4 @@
-package pl.qsoftware.methods;
+package pl.qsoftware.backend.methods;
 
 import org.jetbrains.annotations.NotNull;
 

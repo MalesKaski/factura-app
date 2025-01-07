@@ -1,12 +1,13 @@
 package pl.qsoftware.invoicesDetails;
 
 import org.testng.annotations.Test;
+import pl.qsoftware.backend.invoicesDetails.Company;
 
-public class ContractTest {
+public class CompanyTest {
 
   @Test
   public void testBuilder() {
-    System.out.println(Contract.builder().build());
+    System.out.println(Company.builder().build());
   }
 
   @Test

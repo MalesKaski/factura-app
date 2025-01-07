@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff6f31c4-818e-474a-9f5f-b3c9b87b2bfb" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/PDF/PDFCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/PDF/SimpleInvoicePdf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/builders/CompanyBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/invoicesDetails/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/invoicesDetails/InvoiceItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/frontend/DateAndLocationFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/frontend/MainFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/InvoiceApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/PDF/PDFCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/PDF/PDFGeneratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/PDF/PDFGeneratorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/builders/AddressBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/builders/AddressBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/builders/ContractBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/builders/InvoiceBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/builders/InvoiceBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/enums/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/enums/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/enums/Months.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/enums/Months.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/enums/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/enums/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/enums/PaymentTerm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/enums/PaymentTerm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/invoicesDetails/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/invoicesDetails/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/invoicesDetails/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/qsoftware/methods/Translation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/qsoftware/backend/methods/Translation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/qsoftware/invoicesDetails/ContractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/qsoftware/invoicesDetails/CompanyTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="TestNG Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MalesKaski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MalesKaski/factura-app.git&quot;,
+    &quot;accountId&quot;: &quot;97403690-ce1e-4732-a29f-6de50fe1de4f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar!/org/apache/poi/ooxml/POIXMLDocumentPart.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/5.3.0/poi-ooxml-5.3.0.jar!/org/apache/poi/xssf/usermodel/XSSFWorkbook.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2lGL0SVSHc75kdtJNUjASmudYur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.InvoiceApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainFrame.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PDFGeneratorApp.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SimpleSwingApp.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Scratch.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.Translation.executor&quot;: &quot;Run&quot;,
+    &quot;Java Scratch.translation.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.facturaApp [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.facturaApp [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.facturaApp [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.ContractTest.testBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;TestNG&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kamil/OneDrive/QualitySoftware Kamil Maleszko/invoiceApp/invoiceApp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JAVA&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pl.qsoftware.frontend" />
+      <recent name="pl.qsoftware.invoicesDetails" />
+      <recent name="pl.qsoftware" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="pl.qsoftware.invoicesDetails" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Java Scratch.Main">
+    <configuration name="InvoiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.qsoftware.InvoiceApp" />
+      <module name="invoiceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.qsoftware.builders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PDFGeneratorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.qsoftware.backend.PDF.PDFGeneratorApp" />
+      <module name="invoiceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.qsoftware.backend.PDF.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleSwingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.qsoftware.frontend.SimpleSwingApp" />
+      <module name="invoiceApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.qsoftware.frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/Translation.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_7.java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Java Scratch.Main" />
+        <item itemvalue="Application.InvoiceApp" />
+        <item itemvalue="Application.PDFGeneratorApp" />
+        <item itemvalue="Application.SimpleSwingApp" />
+        <item itemvalue="Java Scratch.Scratch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff6f31c4-818e-474a-9f5f-b3c9b87b2bfb" name="Changes" comment="" />
+      <created>1724801244619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724801244619</updated>
+      <workItem from="1724801246031" duration="1646000" />
+      <workItem from="1724853468629" duration="1319000" />
+      <workItem from="1724854804920" duration="16800000" />
+      <workItem from="1724936324548" duration="9842000" />
+      <workItem from="1725223827250" duration="24000" />
+      <workItem from="1735846689800" duration="2242000" />
+      <workItem from="1735907805500" duration="19546000" />
+      <workItem from="1736280220435" duration="986000" />
+      <workItem from="1736366058928" duration="660000" />
+      <workItem from="1736422720569" duration="4700000" />
+      <workItem from="1736460143431" duration="872000" />
+      <workItem from="1736521137472" duration="2014000" />
+      <workItem from="1736535185110" duration="137000" />
+      <workItem from="1737989749794" duration="4562000" />
+      <workItem from="1737995167058" duration="8903000" />
+      <workItem from="1738084988195" duration="2095000" />
+      <workItem from="1738088067007" duration="1477000" />
+      <workItem from="1738772289749" duration="1854000" />
+      <workItem from="1739208773013" duration="597000" />
+      <workItem from="1740081484928" duration="1915000" />
+      <workItem from="1740388747390" duration="8235000" />
+      <workItem from="1741176236837" duration="6318000" />
+      <workItem from="1741357776456" duration="3964000" />
+      <workItem from="1741619888329" duration="17718000" />
+      <workItem from="1741771502326" duration="1661000" />
+      <workItem from="1741977693548" duration="2171000" />
+      <workItem from="1742103001379" duration="2688000" />
+      <workItem from="1742333891725" duration="605000" />
+      <workItem from="1742382202387" duration="11567000" />
+      <workItem from="1742420087508" duration="3289000" />
+      <workItem from="1742558082581" duration="1199000" />
+      <workItem from="1742833058551" duration="1193000" />
+      <workItem from="1744371586859" duration="207000" />
+      <workItem from="1753952984260" duration="313000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1736280389034</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280389034</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1736280551800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280551800</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1736280890350</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280890350</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1736280900104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736280900104</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1736281199971</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736281199971</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

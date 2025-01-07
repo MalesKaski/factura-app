@@ -1,12 +1,12 @@
-package pl.qsoftware.invoicesDetails;
+package pl.qsoftware.backend.invoicesDetails;
 
-import pl.qsoftware.builders.AddressBuilder;
-import pl.qsoftware.enums.Countries;
+import pl.qsoftware.backend.builders.AddressBuilder;
+import pl.qsoftware.backend.enums.Countries;
 
 public class Address {
   private final String street;
   private final int buildingNumber;
-  private final int flatNumber;
+  private int flatNumber;
   private final String zipcode;
   private final String city;
   private final Countries country;
@@ -20,19 +20,21 @@ public class Address {
     this.country = country;
   }
 
+  public void setFlatNumber(int flatNumber) {
+    this.flatNumber = flatNumber;
+  }
+
   public static AddressBuilder builder() {
     return new AddressBuilder();
   }
 
   @Override
   public String toString() {
-    return "Address{" +
-        "\nstreet='" + street + '\'' +
-        "\nbuildingNumber=" + buildingNumber +
-        "\nflatNumber=" + flatNumber +
-        "\nzipcode='" + zipcode + '\'' +
-        "\ncity='" + city + '\'' +
-        "\ncountry=" + country +
-        "\n}";
+    String text = "\nul. " + street + " " + buildingNumber;
+    if (flatNumber != 0) {
+      text += "/" + flatNumber;
+    }
+    text += "\n" + zipcode + " " + city;
+    return text;
   }
 }

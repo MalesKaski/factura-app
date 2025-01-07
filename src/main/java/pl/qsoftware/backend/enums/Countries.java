@@ -1,4 +1,4 @@
-package pl.qsoftware.enums;
+package pl.qsoftware.backend.enums;
 
 public enum Countries {
   Afghanistan,

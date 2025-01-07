@@ -1,7 +1,7 @@
-package pl.qsoftware.builders;
+package pl.qsoftware.backend.builders;
 
-import pl.qsoftware.enums.Countries;
-import pl.qsoftware.invoicesDetails.Address;
+import pl.qsoftware.backend.enums.Countries;
+import pl.qsoftware.backend.invoicesDetails.Address;
 
 public class AddressBuilder {
   private String street = "Street Name";
